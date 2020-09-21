@@ -13,7 +13,10 @@ Mini版XX-Net特点:
 5. 统一配置文件: XX-Net/data/config.json
 6. 去掉pyOpenSSL, 使用Python调用系统命令生成、导入和管理证书
 
-使用说明(使用前请确保系统已经安装了最新版本的Python3.8.5, 命令行运行 python --version 查看是否已经安装Python): 
+使用前请确保系统已经安装了最新版本的Python3.8.5 和 openssl, 在命令行运行 python --version 和 openssl version查看是否已经安装, 如果没有安装, Windows Python下载地址 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/), 安装时选择添加Windows环境变量, Windows用户根据系统版本位数 32|64位系统选择下载安装openssl,  [Win64OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_1_1g.exe),   [Win32OpenSSL](https://slproweb.com/download/Win32OpenSSL_Light-1_1_1g.exe) (需添加Windows环境变量, openssl.exe在安装路径下的bin文件夹下), Linux用户: sudo aptitude install openssl  
+
+使用说明:
+
 
 1. 下载或克隆XX-Net-mini
 
@@ -21,19 +24,7 @@ Mini版XX-Net特点:
       
         git clone https://github.com/miketwes/XX-Net-mini.git
 
-2. 安装openssl, 在命令行运行openssl version看是否已安装, 如果没有安装:
-
-   Linux: 
-   
-        sudo aptitude install openssl
-  
-   Windows用户根据系统版本位数 32|64位系统选择下载安装
-   
-   [Win64OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_1_1g.exe)
-   
-   [Win32OpenSSL](https://slproweb.com/download/Win32OpenSSL_Light-1_1_1g.exe) 
-
-3. 运行XX-Net-mini
+2. 运行XX-Net-mini
 
    Linux:  
    
@@ -49,7 +40,7 @@ Mini版XX-Net特点:
         cd XX-Net-mini\code\default\launcher && python start.py
 
 
-运行时如果提示 Press Enter to continue..., 说明有错误出现, 可修改 XX-Net-mini/code/default/lib/noarch/xlog.py中的self.min_level = FATAL为self.min_level = NOTSET, 以显示详细错误信息, 欢迎提交错误报告
+运行时如果提示 Press Enter to continue..., 说明有错误出现, 可修改 XX-Net-mini/code/default/lib/noarch/xlog.py中的self.min_level = FATAL为self.min_level = NOTSET, 以显示详细错误信息, 欢迎提交错误报告, 提交报告时, 请尽可能附上详细错误信息
 如果不出现 Network is ok, you can start to surf the internet! 的提示,  说明有Ipv6网络有问题
 
 Chromium浏览器代理设置:
