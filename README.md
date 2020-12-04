@@ -13,7 +13,7 @@ Mini版XX-Net特点:
 5. 统一配置文件: XX-Net/data/config.json
 6. 去掉pyOpenSSL, 使用Python调用系统命令生成、导入和管理证书
 
-使用前请确保系统已经安装了最新版本的Python3.8.5 和 openssl, 在命令行运行 python --version 和 openssl version查看是否已经安装, 如果没有安装, Windows Python下载地址 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/), 安装时选择添加Windows环境变量, Windows用户根据系统版本位数 32|64位系统选择下载安装openssl,  [Win64OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_1_1g.exe),   [Win32OpenSSL](https://slproweb.com/download/Win32OpenSSL_Light-1_1_1g.exe) (需添加Windows环境变量, openssl.exe在安装路径下的bin文件夹下), Linux用户: sudo aptitude install openssl  
+使用前请确保系统已经安装了最新版本的Python 和 openssl, 在命令行运行 python --version 和 openssl version查看是否已经安装, 如果没有安装, Windows Python下载地址 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/), 安装时选择添加Windows环境变量, Windows用户根据系统版本位数 32|64位系统选择下载安装openssl,  [Win64OpenSSL](https://slproweb.com/download/Win64OpenSSL_Light-1_1_1g.exe),   [Win32OpenSSL](https://slproweb.com/download/Win32OpenSSL_Light-1_1_1g.exe) (需添加Windows环境变量, openssl.exe在安装路径下的bin文件夹下), Linux用户: sudo aptitude install openssl  
 
 使用说明:
 
