@@ -45,7 +45,7 @@ Linux用户: sudo aptitude install openssl
    
    Windows: 
    
-   运行 start.bat 
+   Win10 64位运行 start.bat 
 
 运行时如果提示 Press Enter to continue..., 说明有错误出现, 可修改 XX-Net-mini/code/default/lib/noarch/xlog.py中的self.min_level = FATAL为self.min_level = NOTSET, 以显示详细错误信息, 欢迎提交错误报告, 提交报告时, 请尽可能附上详细错误信息
 如果不出现 Network is ok, you can start to surf the internet! 的提示,  说明有Ipv6网络有问题
