@@ -21,14 +21,14 @@ Mini版XX-Net特点:
 
 使用前请确保系统已经安装了最新版本的Python 和 openssl, 在命令行运行 python --version 和 openssl version查看是否已经安装, 如果没有安装:
 
-    Windows用户: Windows Python下载地址 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/), 安装时选择添加Windows环境变量, Windows用户根据系统版本位数 32|64位系统选择下载安装openssl,  [Win64OpenSSL](http://slproweb.com/download/Win64OpenSSL_Light-1_1_1i.exe),   [Win32OpenSSL](http://slproweb.com/download/Win32OpenSSL_Light-1_1_1i.exe)
+Windows用户: Windows Python下载地址 [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/), 
+安装时选择添加Windows环境变量, Windows用户根据系统版本位数 32|64位系统选择下载安装openssl, 
+[Win64OpenSSL](http://slproweb.com/download/Win64OpenSSL_Light-1_1_1i.exe)  
+[Win32OpenSSL](http://slproweb.com/download/Win32OpenSSL_Light-1_1_1i.exe)
 
-    Linux用户: 
-
-    sudo aptitude install openssl  
+Linux用户: sudo aptitude install openssl  
 
 使用说明:
-
 
 1. 下载或克隆XX-Net-mini
 
