@@ -2,7 +2,13 @@ XX-Net-mini 4.5.2 Mini version of [XX-Net](https://github.com/XX-net/XX-Net).
 
 XX-Net-mini 4.5.2 在Linux和Windows环境下正常运行(其他环境未作测试) 
 
-![2020-09-06_627x751](https://user-images.githubusercontent.com/6849681/92320577-08dfea00-f055-11ea-9314-b43a1ad0a0ae.png)
+Windows环境下运行截图:
+
+![](https://user-images.githubusercontent.com/6849681/104595478-a3100880-56ad-11eb-838c-a15fd79abf00.png)
+
+Linux环境下运行截图:
+
+![](https://user-images.githubusercontent.com/6849681/92320577-08dfea00-f055-11ea-9314-b43a1ad0a0ae.png)
 
 Mini版XX-Net特点:
 
