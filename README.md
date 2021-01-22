@@ -22,7 +22,7 @@ Mini版XX-Net特点:
 
 使用说明:
 
-   Windows: [XX-Net-mini-win10_x64.zip](https://github.com/miketwes/miketwes.github.io/blob/main/file/XX-Net-mini-win10_x64.zip) 集成了最新版本的Python 和 openssl,  Win10_x64用户解压后运行start.bat 
+   Windows: [XX-Net-mini-win10-x64.rar](https://github.com/miketwes/miketwes.github.io/blob/main/file/XX-Net-mini-win10-x64.rar) 集成了最新版本的Python 和 openssl,  Win10_x64用户解压后运行start.bat 
 
    Linux: 下载或克隆XX-Net-mini  [XX-Net-mini 4.5.2 zip](https://github.com/miketwes/XX-Net-mini/archive/4.5.2.zip)
         git clone https://github.com/miketwes/XX-Net-mini.git		
