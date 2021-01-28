@@ -16,6 +16,7 @@ Mini版XX-Net特点:
    Win10_x64: [XX-Net-mini-win10-x64.rar](https://github.com/miketwes/miketwes.github.io/blob/main/file/XX-Net-mini-win10-x64.rar) 集成了最新版本的Python和openssl, 解压后运行start.bat
  
    Linux: 下载或克隆XX-Net-mini  [XX-Net-mini 4.5.2 zip](https://github.com/miketwes/XX-Net-mini/archive/4.5.2.zip)
+   
         git clone https://github.com/miketwes/XX-Net-mini.git		
         cd XX-Net-mini/code/default/launcher && python start.py
 
@@ -27,12 +28,13 @@ Mini版XX-Net特点:
 如果不出现 Network is ok, you can start to surf the internet! 的提示,  说明有Ipv6网络有问题
 
 第一次运行要导入证书:
+
 ![](https://user-images.githubusercontent.com/6849681/105489030-8a2ad700-5ced-11eb-813b-5749ae00831a.png)
 	
 Chromium, chrome浏览器代理设置:
 
         chromium --proxy-server="http://127.0.0.1:8087" --ignore-certificate-errors
-		Win10_x64:
+Win10_x64:
 		
 ![](https://user-images.githubusercontent.com/6849681/105488576-cc074d80-5cec-11eb-8ae4-1d67f2b8fe1b.png)
 
